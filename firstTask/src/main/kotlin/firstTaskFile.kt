@@ -3,6 +3,7 @@ fun main(){
     var age: Int = 21
     println("I am $name, $age years old.")
 
+    /*
     println()
     // 1st home work
     var x = 3
@@ -65,10 +66,35 @@ fun main(){
         else
             println("You enter incorrect age!")
 
+    */
 
 
     println()
     //7th home work
-    println("Seventh Home Work")
-    println()
+    println("Seventh Home Work:")
+    println("Enter a Number;")
+    var user_number = readLine()?.toInt()
+    if (user_number != null) {
+        println("Count form $user_number down to 0:")
+        while (user_number >= 0) {
+            if (user_number != null) {
+                println(user_number)
+                user_number--
+            }
+        }
+    }
+    println("Enter Number;")
+    var num_input = readLine()?.toInt()
+    val num = num_input
+    println("Enter Power of your Number;")
+    var power_of_num = readLine()?.toInt()
+    if (power_of_num != null)
+        while (power_of_num > 1){
+            if (num_input != null && power_of_num != null && num != null) {
+                num_input *= num
+                power_of_num--
+            }
+        }
+    println("$num to the power of $power_of_num is $num_input")
+
 }
