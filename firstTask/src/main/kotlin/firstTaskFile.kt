@@ -70,4 +70,5 @@ fun main(){
     println()
     //7th home work
     println("Seventh Home Work")
+    println()
 }
