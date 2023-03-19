@@ -2,6 +2,7 @@ fun main(){
     val name: String = "Ali Hamza"
     var age: Int = 21
     println("I am $name, $age years old.")
+    println("Every Home Work Is commented.")
 
     /*
     println()
