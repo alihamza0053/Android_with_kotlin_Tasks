@@ -129,6 +129,7 @@ fun main(){
      */
 
 
+    /*
     println()
     //9th home work
     println("Ninth Home Work:")
@@ -175,5 +176,54 @@ fun main(){
         number--
     }
     println(number_array)
+     */
+
+
+    /*
+    println()
+    //10th home work
+    println("Tenth Home Work:")
+    println("Enter your country name from list:")
+    println("USA")
+    println("Argentina")
+    println("Pakistan")
+    val country = readLine()
+    when(country){
+        "USA" -> println("Hello")
+        "Argentina" -> println("Hola")
+        "Pakistan" -> println("Assalam o alaikum")
+        else -> println("Sorry! $country not in list.")
+    }
+     */
+
+
+    /*
+    println()
+    //11th home work
+    println("Eleventh Home Work:")
+    println("Enter a number:")
+    fun totalSum(num: Int){
+        var x = 0
+        for (i in 0..num){
+            x+=i
+        }
+        println("The sum of the values form 1 to $num is: $x")
+    }
+    totalSum(4)
+     */
+
+
+    println()
+    //12th home work
+    println("Twelfth Home Work:")
+    val list = listOf<Int>(3,5,4,7,3,5,2,6,7,8,9,)
+    println("Enter number to search for:")
+    val num = readLine()?.toInt()
+    for (i in list){
+        if(i == num){
+            println(list.indexOf(num))
+            break
+        }
+    }
 
 }
