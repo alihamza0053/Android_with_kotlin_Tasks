@@ -226,8 +226,31 @@ fun main(){
             println(list.indexOf(num))
             break
         }
-    }
-    
-     */
 
-}
+    }
+    println("-1")
+
+     */
+    println()
+    //13th home work
+    println("Thirteen Home Work:")
+    fun alternativeSum(vararg numbers: Int): Int{
+        var sum = 0
+        var y = 0
+         for(i in numbers){
+             if (y%2==0){
+                 sum +=i
+             }else{
+                 sum-=i
+             }
+             y++
+         }
+
+        return sum
+    }
+    var a = alternativeSum(1,2,3,4,5,6,7)
+    println(a)
+
+
+    
+     }
