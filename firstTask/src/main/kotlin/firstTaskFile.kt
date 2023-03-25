@@ -231,6 +231,9 @@ fun main(){
     println("-1")
 
      */
+
+
+    /*
     println()
     //13th home work
     println("Thirteen Home Work:")
@@ -245,11 +248,12 @@ fun main(){
              }
              y++
          }
-
         return sum
     }
     var a = alternativeSum(1,2,3,4,5,6,7)
     println(a)
+    
+     */
 
 
     
