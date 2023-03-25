@@ -1,3 +1,5 @@
+import java.awt.List
+
 fun main(){
     val name: String = "Ali Hamza"
     var age: Int = 21
@@ -256,5 +258,22 @@ fun main(){
      */
 
 
-    
+    /*
+    println()
+    //14th home work
+    println("Fourteen Home Work:")
+    var list = listOf(1,2,3,4,5,6)
+    println(list.product())
+
      }
+    fun kotlin.collections.List<Int>.product(): Int{
+        var p = 1
+        for (i in this){
+            p *= i
+        }
+        return p
+        
+     */
+
+
+}
