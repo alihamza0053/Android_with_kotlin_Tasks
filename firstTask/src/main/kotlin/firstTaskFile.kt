@@ -275,5 +275,13 @@ fun main(){
         
      */
 
+    /*
+    println()
+    //15th home work
+    println("Fifteen Home Work:")
+    val tri = triangle(3.0,3.0,3.0)
+    
+     */
+
 
 }
